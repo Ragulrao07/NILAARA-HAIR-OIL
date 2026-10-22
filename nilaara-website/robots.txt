@@ -1,5 +1,4 @@
-
 User-agent: *
 Allow: /
-
-Sitemap: https://74302242.nilaara-hair-oil.pages.dev/sitemap.xml
+Disallow: /assets/
+Sitemap: https://YOUR-DOMAIN.example/sitemap.xml
