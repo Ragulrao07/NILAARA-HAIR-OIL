@@ -1,24 +1,36 @@
-# NILAARA Hair Oil — Website Starter
+# NILAARA Herbal Hair Oil website
 
-A responsive, premium-style static website built with HTML, CSS and vanilla JavaScript.
+Responsive static website built with HTML, CSS and vanilla JavaScript. No npm, framework or build step required.
 
 ## Run locally
-1. Extract the project ZIP.
-2. Open the `nilaara-website` folder in VS Code.
-3. Open `index.html` in your browser, or use the VS Code Live Server extension.
+1. Extract this ZIP.
+2. Open `nilaara-website/index.html` in your browser, or open the folder in VS Code and use Live Server.
+3. Test phone, WhatsApp, navigation and enquiry form.
 
-No npm install or build step is required.
+## Before launch (important)
+1. **Set your real domain:** search for `YOUR-DOMAIN.example` in `index.html` and `sitemap.xml`, and replace it with your final HTTPS domain. Update the canonical URL and Open Graph URLs in `index.html` too.
+2. Upload the folder contents to your hosting provider (Netlify, GitHub Pages or any static host). Ensure `index.html`, `robots.txt`, and `sitemap.xml` are at the website root.
+3. In Google Search Console, verify the domain and submit `https://YOUR-DOMAIN/sitemap.xml` after replacing the placeholder.
+4. Verify the exact product formula, ingredient list, bottle sizes, usage instructions, and any product claims with the product label before publishing. This site deliberately avoids unsupported medical or hair-growth promises.
+5. Add actual pricing/order details if you want online sales. This is currently an enquiry website, not a checkout system.
 
-## Before publishing
-- Replace the sample product photos in `assets/` with final, high-resolution product photography.
-- Add your real phone number, WhatsApp link, price, size/quantity, address and social links.
-- Connect the enquiry form to a real inbox, WhatsApp link or backend. The included form only copies/downloads the enquiry text; it does not send messages to the business.
-- Verify the exact product formula, ingredient spellings, directions, safety information and any product claims before publishing.
-- Add your privacy policy and terms if you collect customer information or sell online.
+## SEO included
+- Unique page titles and descriptions, mobile viewport, semantic headings, alt text and image lazy loading
+- Canonical URL and Open Graph metadata (replace placeholder domain)
+- JSON-LD local business structured data
+- `robots.txt` and `sitemap.xml`
+- Privacy and terms/disclaimer pages
+- Internal navigation and crawlable page links
 
-## Files
-- `index.html` — page content and sections
-- `styles.css` — responsive design and styling
-- `script.js` — mobile menu and demo enquiry form
-- `assets/nilaara-original.png` — source product photo supplied in chat
-- `assets/nilaara-campaign.png` — generated campaign visual supplied in chat
+## Contact links
+- Phone: +91 81110 33515
+- WhatsApp: https://wa.me/918111033515
+- Instagram: https://www.instagram.com/_nilara_herbal_hair_oil_/
+
+## Project files
+- `index.html` — home, collection, ritual, FAQ and contact
+- `styles.css` — design and responsive layouts
+- `script.js` — mobile menu and WhatsApp enquiry form
+- `robots.txt`, `sitemap.xml` — crawler instructions and sitemap
+- `privacy.html`, `terms.html` — starter policy pages; review before launch
+- `assets/` — original and generated campaign/product images
